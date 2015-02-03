@@ -13,6 +13,8 @@
 		    	$.mobile.pageLoadErrorMessageTheme = "b";
 			});
 		</script>
+        <link rel="stylesheet" href="css/themes/nemanja.css" />
+        <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
 		<script src="js/jquery.mobile-1.4.5.js"></script>
 		<link rel="stylesheet" href="css/slicknav.css" />
 		<script src="js/jquery.slicknav.js"></script>
@@ -34,6 +36,11 @@
 					prependTo:'#navigation-menu-contact'
 				});
 			});
+            $(function(){
+                $('#menu1-contact').slicknav({
+                    prependTo:'#navigation-menu1-contact'
+                });
+            });
 			$(function () {
 
 		      // Slideshow 4
@@ -99,7 +106,7 @@
 			// echo "<script type='text/javascript'>alert('$transitionefect')</script>";
 		?>
 		<div id="header-image" data-role="header" data-theme="<?php echo $theme ?>" data-position="fixed">
-		    <h1><img src="img/logo.png" alt="LOGO"></h1>
+		    <h1><img src="img/logo.jpg" alt="LOGO"></h1>
 		</div>
 		<div data-role="footer" data-theme="<?php echo $theme ?>" data-position="fixed">
 		    <h1>Mobile Site<a href="http://marketrivals.com" rel="external">  Clasic Site</a></h1>
@@ -113,15 +120,15 @@
 			  	<div class="callbacks_container">
 				    <ul class="rslides" id="slider4">
 				      <li>
-				        <img src="img/slider-images/1slide.png" alt="">
+				        <img src="img/slider-images/slide1.png" alt="">
 				        <!-- <p class="caption">This is a caption</p> -->
 				      </li>
 				      <li>
-				        <img src="img/slider-images/2slide.png" alt="">
+				        <img src="img/slider-images/slide2.png" alt="">
 				        <!-- <p class="caption">This is another caption</p> -->
 				      </li>
 				      <li>
-				        <img src="img/slider-images/3slide.png" alt="">
+				        <img src="img/slider-images/slide3.png" alt="">
 				        <!-- <p class="caption">The third caption</p> -->
 				      </li>
 				    </ul>
@@ -192,19 +199,19 @@
 					</div>	   
 				</fieldset>
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Web Site Design and Development</a></div>
+					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page8" data-transition="<?php echo $transitionefect ?>">Home</a></div>
 				</div>
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></div>
+					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page4" data-transition="<?php echo $transitionefect ?>">About Us</a></div>
 				</div>
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Local Seo</a></div>
+					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page5" data-transition="<?php echo $transitionefect ?>">Plumbing Services</a></div>
 				</div>
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Web Analytics</a></div>
+					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page6" data-transition="<?php echo $transitionefect ?>">Home Improvement</a></div>
 				</div>
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Social Media Marketing</a></div>
+					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page7" data-transition="<?php echo $transitionefect ?>">Available Plumbing Brands</a></div>
 				</div>
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
 					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-mail ui-btn-icon-left buttons-radius" href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact US</a></div>
@@ -266,7 +273,180 @@
 		
 		</div>
 <!--page 3///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-		<div id="succes" data-role="page" data-theme="<?php echo $theme ?>" data-dialog="true">
+
+
+        <!--page 4///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        <div data-role="page" id="page4" data-theme="<?php echo $theme ?>">
+                <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                    <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                        <section id="navigation-menu">
+                            <ul id="menu">
+                                <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                                <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></li>
+                                <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
+                                <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                            </ul>
+                        </section>
+                        <img src="img/web-design/slika4.png" alt="SLider" class="images-mobile">
+                        <section id="about">
+                            <h1>About Jim Dhamer Plumbing Service of Naperville, IL</h1>
+                            <h2>Jim Dhamer Plumbing Service</h2>
+                            <p><strong>Thank you for visiting Jim Dhamer Plumbing Service's website. Our content is currently under construction, but please check back soon.</strong> If you have any urgent questions or comments, please call us at 630-964-2222 or contact us.</p>
+                            <p><strong>Our business hours are:</strong> </p>
+                            <p>Monday - Friday: 7:00am to 4:00pm</p>
+                            <p>Saturday: 7:30am to 12:00pm</p>
+                        </section>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!--page 4///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+            <!--page 5///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+            <div data-role="page" id="page5" data-theme="<?php echo $theme ?>">
+                <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                    <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                        <section id="navigation-menu">
+                            <ul id="menu">
+                                <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                                <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></li>
+                                <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
+                                <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                            </ul>
+                        </section>
+                        <img src="img/web-design/slika5.png" alt="SLider" class="images-mobile">
+                        <section id="service">
+                        <h1><strong>Naperville, IL Plumber</strong></h1>
+                            <h2>Jim Dhamer Plumbing Service</h2>
+                            <p><strong> Jim Dhamer Plumbing Service provides fast and efficient plumbing services to the Naperville and surrounding areas.</strong> With over 35 years of experience, our plumbing specialists have the experience necessary to get the job done right the first time. We specialize in both residential and commercial plumbing work.</p>
+                            <p><strong>Our Plumbing Services Include:</strong></p>
+                            <ul id="lista">
+                                <li >Sump and ejector pump installation</li>
+                                <li>Water heater installation - both standard and tankless</li>
+                                <li>Electric power rodding</li>
+                                <li>Drain and sewer video inspections</li>
+                                <li>Drain unclogging</li>
+                                <li>RPZ certification</li>
+                                <p>We offer an on-call emergency service during business hours for pipe leaks and other plumbing emergencies.</p>
+                                <p><strong>Contact Jim Dhamer Plumbing Service today at 630-964-2222 for all your Naperville and surrounding areas plumbing needs.</strong></p>
+                            </ul>
+                        </section>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <!--page 5///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!--page 6///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div data-role="page" id="page6" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu">
+                        <ul id="menu">
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></li>
+                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
+                            <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                        </ul>
+                    </section>
+                    <img src="img/web-design/slika6.png" alt="SLider" class="images-mobile">
+                    <section id="home">
+                        <h1><strong>Naperville, IL Home Improvement</strong></h1>
+                        <h2><strong> Jim Dhamer Plumbing Service</strong></h2>
+                        <p><strong> Jim Dhamer Plumbing Service offers the Naperville and surrounding areas quality remodeling and home improvement services.</strong> We offer upfront pricing on all our work so there are no surprises when it comes to the bill. Our team of contractors are experienced and will respect your property by cleaning up after themselves.</p>
+                        <p><strong> Our Home Improvement Services Include:</strong></p>
+                        <ul id="lista2">
+                            <li>Toilet, tub, and sink installation</li>
+                            <li>Home repair</li>
+                            <li>Bathroom remodeling</li>
+                            <li>Kitchen remodeling</li>
+                        </ul>
+                        <p><strong> Contact Jim Dhamer Plumbing Service today at 630-964-2222 for all your Naperville and surrounding areas home improvement needs.</strong></p>
+                    </section>
+
+
+
+                </div>
+
+            </div>
+        </div>
+        <!--page 6///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!--page 7///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div data-role="page" id="page7" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu">
+                        <ul id="menu">
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></li>
+                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
+                            <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                        </ul>
+                    </section>
+                    <img src="img/web-design/slika7.png" alt="SLider" class="images-mobile">
+                    <section id="brands">
+                   <h1><strong>Naperville, IL Available Plumbing Brands</strong></h1>
+                    <h2><strong> Jim Dhamer Plumbing Service</strong></h2>
+                        <p><strong>Jim Dhamer Plumbing Service offers name brand plumbing products to the Naperville, IL area.</strong> Our technicians only install the most reputable products; proven to last and offer you the kind of service that you both need and expect.</p>
+                   <p><strong>Our Available Plumbing Brands Include:</strong></p>
+                        <ul id="lista3">
+                            <li>Bradford White and Rheem </li>
+                            <li>Gerber, Grohe and Chicago Faucet</li>
+                            <li>Hydromatic and Zoeller</li>
+                            <li>In Sink Erator</li>
+                            <li>Kohler, Sloan and Moen</li>
+                            <li>Mansfield</li>
+
+                        </ul>
+                        <p><strong>Contact Jim Dhamer Plumbing Service today at 630-964-2222 for all your Naperville, IL plumbing supply needs.</strong></p>
+                    </section>
+
+                </div>
+
+            </div>
+        </div>
+        <!--page 7///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!--page 8///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div data-role="page" id="page8" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu1">
+                        <ul id="menu1">
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></li>
+                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
+                            <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                        </ul>
+                    </section>
+                    <img src="img/web-design/web-design01.jpg" alt="SLider" class="images-mobile">
+                    <section id="pocetna">
+                        <h1><strong>Naperville, IL Contractor</strong></h1>
+                        <h2><strong> Jim Dhamer Plumbing Service</strong></h2>
+                        <p><strong>Jim Dhamer Plumbing Service provides plumbing and home improvement services to the Naperville and surrounding areas.</strong> We have been delivering prompt and reliable service to our clients since 1974. Whether you have a plumbing emergency that needs immediate attention or are interested in home remodeling, our experienced professionals will be there for you every step of the way.</p>
+                        <p><strong>Jim Dhamer Plumbing Service's Website Includes the Following WebPages:</strong></p>
+                    <ul id="lista4">
+                        <li><a href="#page4"> About Us</a> - Information on our company, coupons, testimonials.</li>
+                        <li><a href="page5">Plumbing Services</a> - RPZ certification, water heater installation, sump and ejector pump installation.</li>
+                        <li><a href="#page6">Home Improvement</a> - Home repair, bathroom remodeling, kitchen remodeling.</li>
+                        <li><a href="#page7">Available Plumbing Brands</a> - Rheem, Moen, Kohler.</li>
+
+                    </ul>
+                        <p>Standard product and labor warranties are available.</p>
+                        <p><strong>Contact Jim Dhamer Plumbing Service today at 630-964-2222 for all your Naperville and surrounding areas plumbing and home improvement needs.</strong></p>
+                    </section>
+
+
+                </div>
+
+            </div>
+        </div>
+        <!--page 8///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+            <div id="succes" data-role="page" data-theme="<?php echo $theme ?>" data-dialog="true">
 		
 			<div data-role="main" class="ui-content" >	
 			 <p>The contact form was sent succesful!</p>

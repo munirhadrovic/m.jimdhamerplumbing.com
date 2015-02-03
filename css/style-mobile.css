@@ -28,6 +28,9 @@ margin: 0 12%;
 #menu {
   display:none;
 }
+#menu1 {
+    display: none;
+}
 #menu-contact {
   display:none;
 }
@@ -38,6 +41,8 @@ margin: 0 12%;
   background-color:transparent !important;
   margin-left: 2%; 
 }
+
+
 .ui-grid-a div{
 	padding: 0px 3%;
 }
@@ -228,4 +233,32 @@ input#contact-submit-dugme {
 
 #slider3-pager a {
   padding: 0;
+}
+#brands{
+    text-align: center;
+}
+#home{
+    text-align: center;
+}
+#service{
+    text-align: center;
+
+}
+#lista{
+text-align: left;
+}
+#about{
+    text-align: center;
+}
+#lista2{
+    text-align: left;
+}
+#lista3{
+    text-align: left;
+}
+#pocetna{
+    text-align: center;
+}
+#lista4{
+    text-align: left;
 }
