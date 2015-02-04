@@ -535,19 +535,19 @@
 
                     <!--page 10///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-            <div id="succes" data-role="page" data-theme="<?php echo $theme ?>" data-dialog="true">
+            <div id="succes" data-role="page" data-theme="<?php echo $theme ?>">
 		
 			<div data-role="main" class="ui-content" >	
-			 <p>The contact form was sent succesful!</p>
+			 <p>Thank you! Your message has been sent successfully</p>
 			
 			</div>
 		
 		</div>
 <!--page succes ends here///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-		<div id="error" data-role="page" data-dialog="true">
+		<div id="error" data-role="page">
 		
 			<div data-role="main" class="ui-content" >	
-				<p>The contact form was sent because of an error!</p>
+				<p>Your message has not been sent successfully...</p>
 			</div>
 		
 		</div>
