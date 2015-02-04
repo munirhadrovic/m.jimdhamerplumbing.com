@@ -37,8 +37,33 @@
 				});
 			});
             $(function(){
-                $('#menu1-contact').slicknav({
-                    prependTo:'#navigation-menu1-contact'
+                $('#menu1').slicknav({
+                    prependTo:'#navigation-menu1'
+                });
+            });
+            $(function(){
+                $('#menu2').slicknav({
+                    prependTo:'#navigation-menu2'
+                });
+            });
+            $(function(){
+                $('#menu3').slicknav({
+                    prependTo:'#navigation-menu3'
+                });
+            });
+            $(function(){
+                $('#menu4').slicknav({
+                    prependTo:'#navigation-menu4'
+                });
+            });
+            $(function(){
+                $('#menu5').slicknav({
+                    prependTo:'#navigation-menu5'
+                });
+            });
+            $(function(){
+                $('#menu6').slicknav({
+                    prependTo:'#navigation-menu6'
                 });
             });
 			$(function () {
@@ -120,17 +145,33 @@
 			  	<div class="callbacks_container">
 				    <ul class="rslides" id="slider4">
 				      <li>
-				        <img src="img/slider-images/slide1.png" alt="">
+				        <img src="img/slider-images/slider01.jpg" alt="">
 				        <!-- <p class="caption">This is a caption</p> -->
 				      </li>
 				      <li>
-				        <img src="img/slider-images/slide2.png" alt="">
+				        <img src="img/slider-images/slider02.jpg" alt="">
 				        <!-- <p class="caption">This is another caption</p> -->
 				      </li>
 				      <li>
-				        <img src="img/slider-images/slide3.png" alt="">
+				        <img src="img/slider-images/slider03.jpg" alt="">
 				        <!-- <p class="caption">The third caption</p> -->
 				      </li>
+                        <li>
+                            <img src="img/slider-images/slider04.jpg" alt="">
+                            <!-- <p class="caption">The third caption</p> -->
+                        </li>
+                        <li>
+                            <img src="img/slider-images/slider05.jpg" alt="">
+                            <!-- <p class="caption">The third caption</p> -->
+                        </li>
+                        <li>
+                            <img src="img/slider-images/slider06.jpg" alt="">
+                            <!-- <p class="caption">The third caption</p> -->
+                        </li>
+                        <li>
+                            <img src="img/slider-images/slider07.jpg" alt="">
+                            <!-- <p class="caption">The third caption</p> -->
+                        </li>
 				    </ul>
 			    </div>
 			    <!-- Jssor Slider End -->
@@ -215,8 +256,9 @@
 				</div>
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
 					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-mail ui-btn-icon-left buttons-radius" href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact US</a></div>
-				</div>				   
-		  </div>
+				</div>
+
+          </div>
 		  
 		 
 		</div>
@@ -280,27 +322,23 @@
         <div data-role="page" id="page4" data-theme="<?php echo $theme ?>">
                 <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
                     <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-                        <section id="navigation-menu">
-                            <ul id="menu">
+                        <section id="navigation-menu2">
+                            <ul id="menu2">
                                 <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
                                 <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></li>
                                 <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
                                 <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
                             </ul>
                         </section>
-                        <img src="img/web-design/slika4.png" alt="SLider" class="images-mobile">
-                        <section id="about">
-                            <h1>About Jim Dhamer Plumbing Service of Naperville, IL</h1>
-                            <h2>Jim Dhamer Plumbing Service</h2>
-                            <p><strong>Thank you for visiting Jim Dhamer Plumbing Service's website. Our content is currently under construction, but please check back soon.</strong> If you have any urgent questions or comments, please call us at 630-964-2222 or contact us.</p>
-                            <p><strong>Our business hours are:</strong> </p>
-                            <p>Monday - Friday: 7:00am to 4:00pm</p>
-                            <p>Saturday: 7:30am to 12:00pm</p>
-                        </section>
 
+                        <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                            <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page9" data-transition="<?php echo $transitionefect ?>">Plumber Testimonials - Coming Soon</a></div>
+                        </div>
+                        <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                            <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page10" data-transition="<?php echo $transitionefect ?>">Plumbing Services Coupons</a></div>
+                        </div>
 
                     </div>
-
                 </div>
             </div>
 
@@ -309,8 +347,8 @@
             <div data-role="page" id="page5" data-theme="<?php echo $theme ?>">
                 <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
                     <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-                        <section id="navigation-menu">
-                            <ul id="menu">
+                        <section id="navigation-menu3">
+                            <ul id="menu3">
                                 <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
                                 <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></li>
                                 <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
@@ -345,8 +383,8 @@
         <div data-role="page" id="page6" data-theme="<?php echo $theme ?>">
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-                    <section id="navigation-menu">
-                        <ul id="menu">
+                    <section id="navigation-menu4">
+                        <ul id="menu4">
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
                             <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></li>
                             <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
@@ -379,15 +417,15 @@
         <div data-role="page" id="page7" data-theme="<?php echo $theme ?>">
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-                    <section id="navigation-menu">
-                        <ul id="menu">
+                    <section id="navigation-menu5">
+                        <ul id="menu5">
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
                             <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></li>
                             <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
                             <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
                         </ul>
                     </section>
-                    <img src="img/web-design/slika7.png" alt="SLider" class="images-mobile">
+                    <img src="img/web-design/slika1.jpg" alt="SLider" class="images-mobile">
                     <section id="brands">
                    <h1><strong>Naperville, IL Available Plumbing Brands</strong></h1>
                     <h2><strong> Jim Dhamer Plumbing Service</strong></h2>
@@ -422,7 +460,7 @@
                             <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
                         </ul>
                     </section>
-                    <img src="img/web-design/web-design01.jpg" alt="SLider" class="images-mobile">
+                    <img src="img/web-design/slika4.jpg" alt="SLider" class="images-mobile">
                     <section id="pocetna">
                         <h1><strong>Naperville, IL Contractor</strong></h1>
                         <h2><strong> Jim Dhamer Plumbing Service</strong></h2>
@@ -430,13 +468,13 @@
                         <p><strong>Jim Dhamer Plumbing Service's Website Includes the Following WebPages:</strong></p>
                     <ul id="lista4">
                         <li><a href="#page4"> About Us</a> - Information on our company, coupons, testimonials.</li>
-                        <li><a href="page5">Plumbing Services</a> - RPZ certification, water heater installation, sump and ejector pump installation.</li>
+                        <li><a href="#page5">Plumbing Services</a> - RPZ certification, water heater installation, sump and ejector pump installation.</li>
                         <li><a href="#page6">Home Improvement</a> - Home repair, bathroom remodeling, kitchen remodeling.</li>
                         <li><a href="#page7">Available Plumbing Brands</a> - Rheem, Moen, Kohler.</li>
 
                     </ul>
                         <p>Standard product and labor warranties are available.</p>
-                        <p><strong>Contact Jim Dhamer Plumbing Service today at 630-964-2222 for all your Naperville and surrounding areas plumbing and home improvement needs.</strong></p>
+                        <p><strong> Contact Jim Dhamer Plumbing Service today at 630-964-2222 for all your Naperville and surrounding areas plumbing and home improvement needs.</strong></p>
                     </section>
 
 
@@ -445,6 +483,57 @@
             </div>
         </div>
         <!--page 8///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!--page 9///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div data-role="page" id="page9" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu6">
+                        <ul id="menu6">
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></li>
+                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
+                            <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                        </ul>
+                    </section>
+                    <img src="img/web-design/slika4.png" alt="SLider" class="images-mobile">
+                    <section id="about">
+
+                        <h1>About Jim Dhamer Plumbing Service of Naperville, IL</h1>
+                        <h2>Jim Dhamer Plumbing Service</h2>
+                        <p><strong>Thank you for visiting Jim Dhamer Plumbing Service's website. Our content is currently under construction, but please check back soon.</strong> If you have any urgent questions or comments, please call us at 630-964-2222 or contact us.</p>
+                        <p><strong>Our business hours are:</strong> </p>
+                        <p>Monday - Friday: 7:00am to 4:00pm</p>
+                        <p>Saturday: 7:30am to 12:00pm</p>
+                    </section>
+                    </div>
+                </div>
+            </div>
+
+        <!--page 9///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+                    <!--page 10///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+                    <div data-role="page" id="page10" data-theme="<?php echo $theme ?>">
+                        <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                            <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                                <section id="navigation-menu1">
+                                    <ul id="menu1">
+                                        <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                                        <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></li>
+                                        <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
+                                        <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                                    </ul>
+                                </section>
+                                <img src="img/web-design/slika8.jpg" alt="SLider" class="images-mobile">
+                                <section id="strana10">
+                                <h1><strong>Naperville, IL Plumbing Services Coupons</strong></h1>
+                                    <h2><strong> Jim Dhamer Plumbing Service</strong></h2>
+                                    <img src="img/web-design/kupon.png" alt="SLider" class="images-mobile">
+
+                                </section>
+                                </div>
+                            </div>
+                        </div>
+
+                    <!--page 10///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
             <div id="succes" data-role="page" data-theme="<?php echo $theme ?>" data-dialog="true">
 		
