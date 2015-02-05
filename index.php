@@ -336,7 +336,6 @@
                             <ul id="menu2">
                                 <li><a href="#page8" data-transition="<?php echo $transitionefect ?>">Home</a></li>
                                 <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">About Us</a></li>
-                                <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">About Us</a></li>
                                 <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Plumbing Services</a></li>
                                 <li><a href="#page6" data-transition="<?php echo $transitionefect ?>">Home Improvement</a></li>
                                 <li><a href="#page7" data-transition="<?php echo $transitionefect ?>">Available Plumbing Brands</a></li>
