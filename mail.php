@@ -11,7 +11,7 @@ if(isset($_POST['mail'])){
     }
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "semko2m@gmail.com";
+    $email_to = "munir@mobilegrows.com";
     $email_subject = "Information from the MOBILE contact form!";      
 
     // validation expected data exists
