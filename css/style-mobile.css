@@ -23,7 +23,7 @@
 }
 
 #header-image h1{
-margin: 0 12%;
+margin: 0 0%;
 }
 #menu {
   display:none;
@@ -46,8 +46,35 @@ margin: 0 12%;
 #menu6 {
     display: none;
 }
+#menu7 {
+    display: none;
+}
+#menu8 {
+    display: none;
+}
 #menu-contact {
   display:none;
+}
+#pocetna{
+    padding: 5px 5px;
+}
+#service{
+    padding: 5px 5px;
+}
+#home{
+    padding: 5px 5px;
+}
+#brands{
+    padding: 5px 5px;
+}
+#pocetna{
+    padding: 5px 5px;
+}
+#about{
+    padding: 5px 5px;
+}
+#strana10{
+    padding: 5px 5px;
 }
 .floatnav{
   position: relative;
@@ -65,7 +92,7 @@ margin: 0 12%;
 	padding: 0px 3%;		
 }
 .buttons-radius{
-	border-radius: 20px;
+	border-radius: 10px;
 }
 input#contact-submit-dugme {
   margin-right: 0px !important;
@@ -210,7 +237,7 @@ input#contact-submit-dugme {
 .callbacks_nav {
   position: absolute;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
-  top: 25%;
+  top: 30%;
   left: 0;
   opacity: 0.7;
   z-index: 3;

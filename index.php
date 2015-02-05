@@ -66,6 +66,16 @@
                     prependTo:'#navigation-menu6'
                 });
             });
+            $(function(){
+                $('#menu7').slicknav({
+                    prependTo:'#navigation-menu7'
+                });
+            });
+            $(function(){
+                $('#menu8').slicknav({
+                    prependTo:'#navigation-menu8'
+                });
+            });
 			$(function () {
 
 		      // Slideshow 4
@@ -131,7 +141,7 @@
 			// echo "<script type='text/javascript'>alert('$transitionefect')</script>";
 		?>
 		<div id="header-image" data-role="header" data-theme="<?php echo $theme ?>" data-position="fixed">
-		    <h1><img src="img/logo.jpg" alt="LOGO"></h1>
+		    <h1><img src="img/logo.png" alt="LOGO"></h1>
 		</div>
 		<div data-role="footer" data-theme="<?php echo $theme ?>" data-position="fixed">
 		    <h1>Mobile Site<a href="http://marketrivals.com" rel="external">  Clasic Site</a></h1>
@@ -324,10 +334,13 @@
                     <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
                         <section id="navigation-menu2">
                             <ul id="menu2">
-                                <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
-                                <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></li>
-                                <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
-                                <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                                <li><a href="#page8" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                                <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">About Us</a></li>
+                                <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">About Us</a></li>
+                                <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Plumbing Services</a></li>
+                                <li><a href="#page6" data-transition="<?php echo $transitionefect ?>">Home Improvement</a></li>
+                                <li><a href="#page7" data-transition="<?php echo $transitionefect ?>">Available Plumbing Brands</a></li>
+                                <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
                             </ul>
                         </section>
 
@@ -349,10 +362,12 @@
                     <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
                         <section id="navigation-menu3">
                             <ul id="menu3">
-                                <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
-                                <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></li>
-                                <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
-                                <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                                <li><a href="#page8" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                                <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">About Us</a></li>
+                                <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Plumbing Services</a></li>
+                                <li><a href="#page6" data-transition="<?php echo $transitionefect ?>">Home Improvement</a></li>
+                                <li><a href="#page7" data-transition="<?php echo $transitionefect ?>">Available Plumbing Brands</a></li>
+                                <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
                             </ul>
                         </section>
                         <img src="img/web-design/slika5.png" alt="SLider" class="images-mobile">
@@ -385,10 +400,12 @@
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
                     <section id="navigation-menu4">
                         <ul id="menu4">
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
-                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></li>
-                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
-                            <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                            <li><a href="#page8" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">About Us</a></li>
+                            <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Plumbing Services</a></li>
+                            <li><a href="#page6" data-transition="<?php echo $transitionefect ?>">Home Improvement</a></li>
+                            <li><a href="#page7" data-transition="<?php echo $transitionefect ?>">Available Plumbing Brands</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
                         </ul>
                     </section>
                     <img src="img/web-design/slika6.png" alt="SLider" class="images-mobile">
@@ -419,10 +436,12 @@
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
                     <section id="navigation-menu5">
                         <ul id="menu5">
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
-                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></li>
-                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
-                            <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                            <li><a href="#page8" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">About Us</a></li>
+                            <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Plumbing Services</a></li>
+                            <li><a href="#page6" data-transition="<?php echo $transitionefect ?>">Home Improvement</a></li>
+                            <li><a href="#page7" data-transition="<?php echo $transitionefect ?>">Available Plumbing Brands</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
                         </ul>
                     </section>
                     <img src="img/web-design/slika1.jpg" alt="SLider" class="images-mobile">
@@ -454,10 +473,12 @@
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
                     <section id="navigation-menu1">
                         <ul id="menu1">
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
-                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></li>
-                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
-                            <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                            <li><a href="#page8" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">About Us</a></li>
+                            <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Plumbing Services</a></li>
+                            <li><a href="#page6" data-transition="<?php echo $transitionefect ?>">Home Improvement</a></li>
+                            <li><a href="#page7" data-transition="<?php echo $transitionefect ?>">Available Plumbing Brands</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
                         </ul>
                     </section>
                     <img src="img/web-design/slika4.jpg" alt="SLider" class="images-mobile">
@@ -489,10 +510,12 @@
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
                     <section id="navigation-menu6">
                         <ul id="menu6">
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
-                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></li>
-                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
-                            <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                            <li><a href="#page8" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">About Us</a></li>
+                            <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Plumbing Services</a></li>
+                            <li><a href="#page6" data-transition="<?php echo $transitionefect ?>">Home Improvement</a></li>
+                            <li><a href="#page7" data-transition="<?php echo $transitionefect ?>">Available Plumbing Brands</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
                         </ul>
                     </section>
                     <img src="img/web-design/slika4.png" alt="SLider" class="images-mobile">
@@ -514,12 +537,14 @@
                     <div data-role="page" id="page10" data-theme="<?php echo $theme ?>">
                         <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
                             <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-                                <section id="navigation-menu1">
-                                    <ul id="menu1">
-                                        <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
-                                        <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></li>
-                                        <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
-                                        <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                                <section id="navigation-menu7">
+                                    <ul id="menu7">
+                                        <li><a href="#page8" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                                        <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">About Us</a></li>
+                                        <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Plumbing Services</a></li>
+                                        <li><a href="#page6" data-transition="<?php echo $transitionefect ?>">Home Improvement</a></li>
+                                        <li><a href="#page7" data-transition="<?php echo $transitionefect ?>">Available Plumbing Brands</a></li>
+                                        <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
                                     </ul>
                                 </section>
                                 <img src="img/web-design/slika8.jpg" alt="SLider" class="images-mobile">
@@ -534,6 +559,8 @@
                         </div>
 
                     <!--page 10///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
 
             <div id="succes" data-role="page" data-theme="<?php echo $theme ?>" data-dialog="true">
 		
